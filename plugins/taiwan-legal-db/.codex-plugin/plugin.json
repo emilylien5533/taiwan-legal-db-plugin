@@ -1,0 +1,24 @@
+{
+  "name": "taiwan-legal-db",
+  "version": "1.0.0",
+  "description": "Search Taiwan official legal sources through the Taiwan Legal DB MCP server.",
+  "repository": "https://github.com/emilylien5533/taiwan-legal-db-plugin",
+  "keywords": ["taiwan", "law", "legal", "judgments", "regulations", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Taiwan Legal DB",
+    "shortDescription": "查詢臺灣官方法規、裁判、函釋與立法資料",
+    "longDescription": "透過 Taiwan Legal DB MCP 即時查詢臺灣官方法律資料，包括現行法規、司法院裁判、行政函釋、憲法法庭、立法資料與法律統計。",
+    "developerName": "emilylien5533",
+    "category": "Productivity",
+    "capabilities": [
+      "查詢臺灣現行法規",
+      "搜尋司法院裁判",
+      "查詢行政函釋與立法資料"
+    ],
+    "defaultPrompt": [
+      "使用 Taiwan Legal DB 查詢《民法》第184條現行條文與官方來源。",
+      "使用 Taiwan Legal DB 搜尋最高法院近年關於保護他人法律的裁判。"
+    ]
+  }
+}
