@@ -1,9 +1,20 @@
 {
+  "name": "taiwan-legal-db-marketplace",
+  "interface": {
+    "displayName": "Taiwan Legal DB"
+  },
   "plugins": [
     {
-      "name": "Taiwan Legal DB",
-      "description": "查詢臺灣官方法規、裁判、函釋、憲法法庭、立法資料與法律統計。",
-      "path": "plugins/taiwan-legal-db"
+      "name": "taiwan-legal-db",
+      "source": {
+        "source": "local",
+        "path": "./plugins/taiwan-legal-db"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
