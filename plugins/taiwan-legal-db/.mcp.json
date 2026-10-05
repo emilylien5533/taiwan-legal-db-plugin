@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "taiwan-legal-db": {
-      "type": "http",
       "url": "https://mcp-taiwan-legal-db-gc0b.onrender.com/mcp"
     }
   }
